@@ -319,7 +319,6 @@ export default function Home() {
                     accept="image/*"
                     onChange={handleImageChange}
                     className="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
-                    capture
                   />
                   
                   <div className="text-center">
