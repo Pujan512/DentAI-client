@@ -378,11 +378,11 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div class="flex flex-col items-center w-full max-w-2xl xl:hidden">
+                <div className="flex flex-col items-center w-full max-w-2xl xl:hidden">
                   <label for="image1" class="cursor-pointer w-full">
-                    <div class="flex flex-col items-center justify-center border-2 border-dashed border-blue-400 rounded-xl p-8 hover:bg-blue-50 transition-colors duration-200">
-                      <i class="fas fa-camera text-blue-500 text-4xl mb-3"></i>
-                      <span class="text-lg font-medium text-blue-600">
+                    <div className="flex flex-col items-center justify-center border-2 border-dashed border-blue-400 rounded-xl p-8 hover:bg-blue-50 transition-colors duration-200">
+                      <i className="fas fa-camera text-blue-500 text-4xl mb-3"></i>
+                      <span className="text-lg font-medium text-blue-600">
                         Open Camera
                       </span>
                     </div>
