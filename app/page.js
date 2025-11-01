@@ -72,7 +72,7 @@ export default function Home() {
     formData.append("file", image);
 
     try {
-      const res = await fetch(url + "predict", {
+      const res = await fetch(url + "predict/", {
         method: "POST",
         body: formData,
       });
